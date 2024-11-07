@@ -214,7 +214,7 @@ app.use(bodyParser.json());
 
 // CORS Configuration
 app.use(cors({
-  origin: "http://localhost:3000", // React app's URL
+  origin: "https://react-ebook-eta.vercel.app/", // React app's URL
   credentials: true, // Allow cookies to be sent
 }));
 
